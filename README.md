@@ -2,22 +2,22 @@
 
 - ***SImple file encryptor made in [C] using openSSL and AES-256 key in CBC***
 
-# ❓ Usage :
+# ❓ Usage 
 - Install openSSL:
 
-``sudo pacman -S openssl`` (arch)
+```sudo pacman -S openssl``` (arch)
 
-``sudo apt-get install libssl-dev`` (deb/ubuntu)
+```sudo apt-get install libssl-dev``` (deb/ubuntu)
 
 # ⚙️ Compile !
 
-``gcc -o enc enc.c `pkg-config --cflags --libs gtk+-3.0` -lcrypto``
+```gcc -o enc enc.c `pkg-config --cflags --libs gtk+-3.0` -lcrypto```
 
-# Run ‼️:
+# Run ‼️
 
-``./enc``
+```./enc```
 
-# ❕❕ Disclaimer:
+# ❕❕ Disclaimer
 
 - **This tool is still in BETA. if you encounter any bugs, they will be fixed in the next update**
 
