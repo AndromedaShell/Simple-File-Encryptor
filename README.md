@@ -5,17 +5,17 @@
 # ❓ Usage :
 - Install openSSL:
 
-```sudo pacman -S openssl``` (arch)
+``sudo pacman -S openssl`` (arch)
 
-```sudo apt-get install libssl-dev``` (deb/ubuntu)
+``sudo apt-get install libssl-dev`` (deb/ubuntu)
 
 # ⚙️ Compile !
 
-```gcc -o enc enc.c `pkg-config --cflags --libs gtk+-3.0` -lcrypto```
+``gcc -o enc enc.c `pkg-config --cflags --libs gtk+-3.0` -lcrypto``
 
 # Run ‼️:
 
-```./enc```
+``./enc``
 
 # ❕❕ Disclaimer:
 
