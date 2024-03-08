@@ -4,6 +4,7 @@
 
 # ❓ Usage :
 - Install openSSL:
+
 ```sudo pacman -S openssl``` (arch)
 
 ```sudo apt-get install libssl-dev``` (deb/ubuntu)
